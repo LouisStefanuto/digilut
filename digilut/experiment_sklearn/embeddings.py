@@ -1,3 +1,5 @@
+"""Experiment to embedd images using the Phikon model."""
+
 import datetime
 import time
 from dataclasses import asdict, dataclass

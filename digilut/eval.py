@@ -1,3 +1,5 @@
+"""WIP to prepare the evaluation functions."""
+
 import pandas as pd
 import torch
 from torchmetrics.functional.detection import generalized_intersection_over_union

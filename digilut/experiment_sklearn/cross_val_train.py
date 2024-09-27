@@ -14,7 +14,7 @@ from sklearn.model_selection import GroupKFold
 from sklearn.neural_network import MLPClassifier
 from typing_extensions import Annotated
 
-from digilut.dataset import NpyDataset, count_occ_labels
+from digilut.experiment_sklearn.dataset import NpyDataset, count_occ_labels
 
 app = typer.Typer(help="Launch a training on a balanced dataset of labelled patches.")
 
