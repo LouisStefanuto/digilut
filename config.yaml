@@ -1,0 +1,20 @@
+---
+# config.yaml
+batch_size: 128
+device: mps
+checkpoint_path: /Users/lstefanu/Documents/perso/digilut/checkpoints/epoch=5-step=876.ckpt
+dropout: 0.20
+early_stopping_patience: 5
+experiment_name: Exp_classif_lvl1_ratio2:1-final
+learning_rate: 1e-5
+log_dir: tb_logs
+max_epochs: 15
+n_splits: 5
+name_model: resnet18-final
+predictions_path: /Users/lstefanu/Documents/perso/digilut/predictions.csv
+seed: 1234
+train_data_path: /Users/lstefanu/Documents/perso/patches_train/labels_undersampled.csv
+train_image_dir: /Users/lstefanu/Documents/perso/patches_train/
+test_data_path: /Users/lstefanu/Documents/perso/patches_test_no_overlap/labels.csv
+test_image_dir: /Users/lstefanu/Documents/perso/patches_test_no_overlap/
+threshold_classif: 0.5

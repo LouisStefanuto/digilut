@@ -1,0 +1,69 @@
+[tool.poetry]
+name = "digilut"
+version = "0.1.0"
+authors = ["Louis Stefanuto <louis.stefanuto@gmail.com>"]
+description = ""
+readme = "README.md"
+
+[tool.poetry.scripts]
+digilut = "digilut.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+typer = "^0.12.3"
+pillow = "^10.4.0"
+tifffile = "^2024.7.24"
+imagecodecs = "^2024.6.1"
+timm = "^1.0.8"
+tqdm = "^4.66.5"
+openslide-python = "^1.3.1"
+shapely = "^2.0.5"
+matplotlib = "^3.9.0"
+numpy = "<2"
+opencv-python = "^4.10.0.84"
+umap-learn = "^0.5.6"
+pyfiglet = "^1.0.2"
+xgboost = "^2.1.1"
+imbalanced-learn = "^0.12.3"
+torchmetrics = "^1.4.1"
+lightning = "^2.4.0"
+tensorboard = "^2.17.1"
+scikit-learn = "^1.5.1"
+torch = "^2.4.0"
+torchvision = "^0.19.0"
+pydantic = "^2.8.2"
+mlflow = "^2.15.1"
+pyfast = "^4.9.2"
+scikit-image = "^0.24.0"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+nbstripout = "^0.7.1"
+pytest = "^8.3.2"
+pytest-mock = "^3.14.0"
+pre-commit = "^3.8.0"
+ruff = "^0.5.6"
+mypy = "^1.11.1"
+pytest-cov = "^5.0.0"
+
+[tool.poetry.group.docs]
+optional = true
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.6.0"
+mkdocs-material = "^9.5.31"
+mkdocs-print-site-plugin = "^2.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+extend-include = ["*.ipynb"]  # lint and format jupyer notebooks
+
+[tool.ruff.lint]
+extend-select = ["I"]  # sort imports like isort https://github.com/astral-sh/ruff/issues/8926
