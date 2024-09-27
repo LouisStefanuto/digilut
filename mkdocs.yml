@@ -64,6 +64,5 @@ nav:
     - Menu CLI: cli/index.md
     - New to Typer?: cli/new_to_typer.md
     - Commands: cli/commands.md
-  - Run: run.md
   - References: references.md
   - About: about.md
