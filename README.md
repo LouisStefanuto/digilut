@@ -19,18 +19,18 @@ Create a virtual environment and install deps:
     cd digilut
     poetry install --with dev,docs
 
-For a more detailed install, refer to the [install section](docs/install.md) of the documentation.
+For a more detailed install, refer to the [install section](https://louisstefanuto.github.io/digilut/install) of the documentation.
 
 ## 📊 Download the dataset
 
-The datasets are available on the [competition webpage](https://app.trustii.io/datasets/1526).
+The datasets are available on the [competition webpage](https://app.trustii.io/datasets/1526). Note that you have to create a Trustii account first.
 
 - 412 **annotated slides** (~200 GB): *needed*
 - 1680 **non-annotated slides** (~3TB): *not used in this project*
 
 ## 📚 Documentation
 
-For more info about the project, visit the [open documentation]().
+For more info about the project, visit the [open documentation](https://louisstefanuto.github.io/digilut/).
 
 You can also host it locally by running:
 
