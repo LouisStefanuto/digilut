@@ -4,6 +4,8 @@
 
 The [**Digilut challenge**](https://app.trustii.io/datasets/1526), a collaborative project between Trustii.io and Foch Hospital and supported by the Health Data Hub and Bpifrance, aims to develop a medical decision support algorithm to diagnose graft rejection episodes in lung transplant patients by **detecting pathological regions** (A lesions) on transbronchial biopsies.
 
+![slide](docs/assets/slide.png)
+
 ## 🧪 Quick installation
 
 Install poetry:
