@@ -5,14 +5,14 @@ from pyfiglet import Figlet
 from typing_extensions import Annotated
 
 from digilut.bbox_filtering import clean
-from digilut.extract_rois import extract_rois
 from digilut.logs import get_logger
 from digilut.pyfast.main import app_pyfast
 from digilut.tiles.main import app_tiles
 from digilut.undersample import app_undersample
+from digilut.viz.extract_rois import extract_rois
 
 app = typer.Typer(help="Entrypoint of Digilut's main CLI.")
-app.add_typer(app_tiles, name="tiles")
+app.add_typer(app_tiles, name="tiles", deprecated=True)
 app.add_typer(app_pyfast, name="pyfast")
 app.add_typer(app_undersample, name="undersample")
 
